@@ -6,6 +6,8 @@ This repository contains **Artificial Intelligence Laboratory experiments** for
 **Student Name:** Kamesh  
 **Subject:** Artificial Intelligence Lab  
 **Language:** Java  
+**Language:** python
+
 
 ---
 
