@@ -12,14 +12,16 @@ This repository contains **Artificial Intelligence Laboratory experiments** for
 ## 📂 Experiments List
 
 ### Experiment 1
-**Title:** _To be added_  
+**Title:** Solving  N queens  Problem
 **Description:** _To be added_
+**File:** `queens.py`
 
 ---
 
 ### Experiment 2
-**Title:** _To be added_  
-**Description:** _To be added_
+**Title:** A * Algorithm  
+**Description:** 
+**File:** `a*.py`
 
 ---
 
