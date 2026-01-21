@@ -65,3 +65,8 @@ AI-Lab-Experiments/
 └── experiment5.png
 ## 📁 Folder Structure
 
+---
+
+## ✅ Conclusion
+This repository is created for academic purposes to understand and implement various **Artificial Intelligence algorithms** as part of the BE AIML curriculum.
+
