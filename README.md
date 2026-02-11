@@ -1,164 +1,173 @@
-# BE AIML – Artificial Intelligence Lab Experiments  
+# 🤖 BE AIML – Artificial Intelligence Lab Experiments
 
-This repository contains **Artificial Intelligence Laboratory experiments** for  
-**B.E. Artificial Intelligence & Machine Learning (AIML)**.
-
-**Student Name:** Kamesh  
-**Subject:** Artificial Intelligence Lab  
-**Languages Used:** Java, Python  
+This repository contains **Artificial Intelligence Laboratory experiments** developed as part of the
+**B.E. Artificial Intelligence & Machine Learning (AIML)** curriculum.
 
 ---
 
-## 📂 Experiments List  
+## 👨‍🎓 Student Details
+
+* **Student Name:** Kamesh
+* **Subject:** Artificial Intelligence Lab
+* **Languages Used:** Python, Java
 
 ---
 
-## Experiment 1  
+## 📂 Experiments List
 
-### Title: Solving N-Queens Problem  
+---
 
-**Aim:**  
+## 🧪 Experiment 1: Solving N-Queens Problem
+
+**Aim:**
 To implement the N-Queens problem using backtracking in Python.
 
-**Description:**  
-The N-Queens problem is a constraint satisfaction problem where N queens must be placed on an N×N chessboard such that no two queens attack each other.
+**Description:**
+The N-Queens problem is a constraint satisfaction problem where **N queens** must be placed on an **N × N chessboard** such that no two queens attack each other.
 
-**Algorithm:**  
-1. Place a queen in the first column  
-2. Check if the position is safe  
-3. If safe, move to the next column  
-4. If not safe, backtrack  
-5. Repeat until all queens are placed  
+**Algorithm:**
 
-**File:** `queens.py`  
+1. Place a queen in the first column
+2. Check if the position is safe
+3. If safe, move to the next column
+4. If not safe, backtrack
+5. Repeat until all queens are placed
 
-**Output / Result:**  
+**File:** `exp1/queen.py`
 
-<img src="images/experiment1.png" width="400"/>
+**Output / Result:**
+
+<img src="exp1/queen.png" width="400"/>
 
 ---
 
-## Experiment 2  
+## 🧪 Experiment 2: A* Algorithm
 
-### Title: A* Algorithm  
-
-**Aim:**  
+**Aim:**
 To implement the A* search algorithm in Python.
 
-**Description:**  
-A* is a heuristic search algorithm used to find the shortest path between nodes in a graph.  
+**Description:**
+A* is a heuristic search algorithm used to find the **shortest path between nodes in a graph**.
 
-f(n) = g(n) + h(n)
+Formula:
 
-Where:  
-g(n) = cost from start node  
-h(n) = heuristic estimate to goal  
+> **f(n) = g(n) + h(n)**
 
-**Algorithm:**  
-1. Initialize open and closed lists  
-2. Add start node to open list  
-3. Select node with lowest f(n)  
-4. Expand neighbors  
-5. Repeat until goal is reached  
+Where:
 
-**File:** `a*.py`  
+* **g(n)** = cost from start node
+* **h(n)** = heuristic estimate to goal
 
-**Output / Result:**  
+**Algorithm:**
+
+1. Initialize open and closed lists
+2. Add start node to open list
+3. Select node with lowest f(n)
+4. Expand neighbors
+5. Repeat until goal is reached
+
+**File:** `a*.py`
+
+**Output / Result:**
 
 <img src="images/experiment2.png" width="400"/>
 
 ---
 
-## Experiment 3  
+## 🧪 Experiment 3: Hill Climbing Algorithm
 
-### Title: Hill Climbing Algorithm  
-
-**Aim:**  
+**Aim:**
 To implement the Hill Climbing algorithm using Java.
 
-**Description:**  
-Hill Climbing is a local search algorithm that continuously moves towards increasing value to find the peak solution.
+**Description:**
+Hill Climbing is a **local search algorithm** that continuously moves toward increasing value to find the peak (optimal) solution.
 
-**Algorithm:**  
-1. Start with an initial state  
-2. Evaluate neighboring states  
-3. Select the best neighbor  
-4. Move to that neighbor  
-5. Repeat until no better neighbor exists  
+**Algorithm:**
 
-**File:** `hillclimb.java`  
+1. Start with an initial state
+2. Evaluate neighboring states
+3. Select the best neighbor
+4. Move to that neighbor
+5. Repeat until no better neighbor exists
 
-**Output / Result:**  
+**File:** `hillclimb.java`
+
+**Output / Result:**
 
 <img src="exp3/hillclimb.png" width="400"/>
 
 ---
 
-## Experiment 4  
+## 🧪 Experiment 4: Game Playing Algorithms
 
-### (i) Minimax Algorithm  
+### (i) Minimax Algorithm
 
-**Aim:**  
+**Aim:**
 To implement the Minimax algorithm for decision-making in game theory.
 
-**Description:**  
-Minimax is a recursive algorithm used in two-player games where one player maximizes and the other minimizes.
+**Description:**
+Minimax is a recursive algorithm used in **two-player games** where one player maximizes and the other minimizes the score.
 
-**Algorithm:**  
-1. Define the game tree  
-2. Assign utility values to terminal states  
-3. Recursively evaluate nodes  
-4. Choose optimal move  
+**Algorithm:**
 
-**File:** `exp4/minmax.py`  
+1. Define the game tree
+2. Assign utility values to terminal states
+3. Recursively evaluate nodes
+4. Choose the optimal move
 
-**Output / Result:**  
+**File:** `exp4/minmax.py`
+
+**Output / Result:**
 
 <img src="exp4/minmax.png" width="400"/>
 
 ---
 
-### (ii) Alpha-Beta Pruning  
+### (ii) Alpha-Beta Pruning
 
-**Aim:**  
-To implement Alpha-Beta Pruning to optimize Minimax.
+**Aim:**
+To implement Alpha-Beta Pruning to optimize the Minimax algorithm.
 
-**Description:**  
+**Description:**
 Alpha-Beta pruning reduces the number of nodes evaluated by eliminating branches that do not affect the final decision.
 
-**Algorithm:**  
-1. Initialize alpha = -∞ and beta = +∞  
-2. Apply Minimax logic  
-3. Prune when beta ≤ alpha  
-4. Return optimal value  
+**Algorithm:**
 
-**File:** `exp4/alpha-beta.py`  
+1. Initialize alpha = −∞ and beta = +∞
+2. Apply Minimax logic
+3. Prune branches when beta ≤ alpha
+4. Return optimal value
 
-**Output / Result:**  
+**File:** `exp4/alpha-beta.py`
+
+**Output / Result:**
 
 <img src="exp4/alpha-beta.png" width="400"/>
 
 ---
 
-## Experiment 5  
+## 🧪 Experiment 5
 
-**Title:** _To be added_  
-**Description:** _To be added_  
+**Title:** To be added
+**Description:** To be added
 
 ---
 
-## 📁 Folder Structure  
+## 📁 Folder Structure
 
+```
 AI-Lab-Experiments/
 │
-├── queens.py
+├── exp1/
+│   ├── queen.py
+│   └── queen.png
+│
 ├── a*.py
 ├── hillclimb.java
 ├── README.md
 │
 ├── images/
-│   ├── experiment1.png
-│   ├── experiment2.png
+│   └── experiment2.png
 │
 ├── exp3/
 │   └── hillclimb.png
@@ -168,9 +177,14 @@ AI-Lab-Experiments/
     ├── alpha-beta.py
     ├── minmax.png
     └── alpha-beta.png
+```
 
 ---
 
-## ✅ Conclusion  
+## ✅ Conclusion
 
-This repository is created for academic purposes to understand and implement various Artificial Intelligence algorithms as part of the BE AIML curriculum.
+This repository is created for **academic learning purposes** to understand and implement important Artificial Intelligence algorithms as part of the **B.E. AIML curriculum**. These experiments demonstrate practical applications of AI concepts such as search algorithms, optimization, and game theory.
+
+---
+
+⭐ *Feel free to explore, learn, and improve these implementations!*
