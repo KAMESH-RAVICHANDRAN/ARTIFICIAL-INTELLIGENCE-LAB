@@ -17,7 +17,7 @@ This repository contains **Artificial Intelligence Laboratory experiments** deve
 
 ---
 
-## <img src="experiment.png" width="28"/> Experiment 1: Solving N-Queens Problem
+## <img src="experiments.png" width="28"/> Experiment 1: Solving N-Queens Problem
 
 **Aim:**
 To implement the N-Queens problem using backtracking in Python.
@@ -41,7 +41,7 @@ The N-Queens problem is a constraint satisfaction problem where **N queens** mus
 
 ---
 
-## <img src="experiment.png" width="28"/> Experiment 2: A* Algorithm
+## <img src="experiments.png" width="28"/> Experiment 2: A* Algorithm
 
 **Aim:**
 To implement the A* search algorithm in Python.
@@ -74,7 +74,7 @@ Where:
 
 ---
 
-## <img src="experiment.png" width="28"/> Experiment 3: Hill Climbing Algorithm
+## <img src="experiments.png" width="28"/> Experiment 3: Hill Climbing Algorithm
 
 **Aim:**
 To implement the Hill Climbing algorithm using Java.
@@ -98,7 +98,7 @@ Hill Climbing is a **local search algorithm** that continuously moves toward inc
 
 ---
 
-## <img src="experiment.png" width="28"/> Experiment 4: Game Playing Algorithms
+## <img src="experiments.png" width="28"/> Experiment 4: Game Playing Algorithms
 
 ### (i) Minimax Algorithm
 
@@ -146,7 +146,7 @@ Alpha-Beta pruning reduces the number of nodes evaluated by eliminating branches
 
 ---
 
-## <img src="experiment.png" width="28"/> Experiment 5
+## <img src="experiments.png" width="28"/> Experiment 5
 
 **Title:** To be added
 **Description:** To be added
