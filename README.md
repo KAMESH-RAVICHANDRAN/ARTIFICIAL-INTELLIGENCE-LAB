@@ -66,11 +66,11 @@ Where:
 4. Expand neighbors
 5. Repeat until goal is reached
 
-**File:** `a*.py`
+**File:** `exp2/a*.py`
 
 **Output / Result:**
 
-<img src="images/experiment2.png" width="400"/>
+<img src="exp2/a*.png" width="400"/>
 
 ---
 
@@ -162,12 +162,12 @@ AI-Lab-Experiments/
 │   ├── queen.py
 │   └── queen.png
 │
-├── a*.py
+├── exp2/
+│   ├── a*.py
+│   └── a*.png
+│
 ├── hillclimb.java
 ├── README.md
-│
-├── images/
-│   └── experiment2.png
 │
 ├── exp3/
 │   └── hillclimb.png
